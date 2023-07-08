@@ -10,13 +10,7 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -33,14 +27,16 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/katrine9176/fylo-dark-landing-page-Frontendmentor)
+- Live Site URL: [live site URL](https://katrine9176.github.io/fylo-dark-landing-page-Frontendmentor/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- SASS
+- BEM
 - Font Awesome [Font Awesome](https://fontawesome.com/)
 
 ## Author
