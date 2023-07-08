@@ -1,0 +1,208 @@
+@media (min-width: 992px) {
+	.header {
+		padding-top: 0.5em;
+
+		.nav__logo {
+			width: 120px;
+		}
+
+		&__img {
+			width: 450px;
+		}
+
+		.block {
+			width: 620px;
+		}
+
+		h1 {
+			font-size: 3rem;
+		}
+
+		p {
+			font-size: 1.6rem;
+		}
+
+		&__btn {
+			font-size: 1.5rem;
+		}
+
+		&__curvy {
+			top: 580px;
+			height: 449px;
+			background-color: $header-bg;
+
+			&--mobile {
+				display: none;
+			}
+
+			&--desktop {
+				display: block;
+			}
+		}
+
+		&__darker {
+			top: 1029px;
+		}
+	}
+
+	.main {
+		position: relative;
+		margin-top: 16em;
+		z-index: 3;
+
+		.possibilities {
+			margin-left: -2.5em;
+
+			&__box {
+				margin-left: 5em;
+
+				img {
+					height: 70px;
+				}
+
+				h3 {
+					font-size: 1.9rem;
+				}
+
+				p {
+					font-size: 1.5rem;
+				}
+			}
+		}
+
+		.productive {
+			max-width: 1200px;
+
+			.wrapper {
+				display: flex;
+				flex-direction: row;
+			}
+
+			&__img {
+				margin-left: 0;
+				transform: translateX(0);
+				width: 480px;
+			}
+
+			&__block {
+				margin: 2em 1em 0 3em;
+				max-width: 600px;
+
+				h2 {
+					font-size: 2.7rem;
+				}
+			}
+		}
+
+		.quotes {
+			&__quotes {
+				width: 50px;
+				top: -32px;
+				left: -6px;
+				z-index: -1;
+			}
+
+			&__block {
+				&-box {
+					max-width: 350px;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	.main .access {
+		margin-top: 5em;
+
+		h2 {
+			font-size: 3rem;
+		}
+
+		div {
+			position: relative;
+			margin-top: 1em;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+
+			.btn {
+				margin-left: 1em;
+				align-self: center;
+				height: 40px;
+				width: 200px;
+			}
+
+			.error {
+				position: absolute;
+				bottom: -10px;
+				left: 47px;
+			}
+		}
+	}
+
+	.footer {
+		&__block {
+			margin-top: 3em;
+			display: flex;
+			flex-direction: row;
+
+			&-box {
+				margin-right: 4em;
+
+				&--links {
+					margin-top: -0.6em;
+					min-width: 80px;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1400px) {
+	.header {
+		&__img {
+			width: 500px;
+		}
+	}
+
+	.main {
+		.possibilities__box {
+			img {
+				height: 75px;
+			}
+
+			h3 {
+				font-size: 2rem;
+			}
+		}
+
+		.productive {
+			&__img {
+				width: 500px;
+			}
+
+			&__block {
+				margin-left: 3em;
+			}
+
+			h2 {
+				font-size: 3.2rem;
+			}
+
+			p {
+				font-size: 1.6rem;
+			}
+		}
+
+		.quotes {
+			margin-top: 4em;
+
+			&__block-box {
+				p {
+					font-size: 1.5rem;
+				}
+			}
+		}
+	}
+}
